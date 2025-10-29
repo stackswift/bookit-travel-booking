@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <rect width="128" height="128" rx="24" fill="url(#gradient)"/>
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#9b87f5"/>
+      <stop offset="50%" stop-color="#7E69AB"/>
+      <stop offset="100%" stop-color="#6E59A5"/>
+    </linearGradient>
+  </defs>
+  <!-- Compass Icon -->
+  <g transform="translate(64, 64)">
+    <!-- Outer Circle -->
+    <circle cx="0" cy="0" r="36" fill="none" stroke="white" stroke-width="3" opacity="0.3"/>
+
+    <!-- Compass Needle -->
+    <path d="M 0,-28 L 8,0 L 0,28 L -8,0 Z" fill="white"/>
+    <path d="M 0,-28 L 8,0 L 0,8 Z" fill="#F97316" opacity="0.9"/>
+
+    <!-- Center Dot -->
+    <circle cx="0" cy="0" r="4" fill="white"/>
+
+    <!-- Cardinal Points -->
+    <circle cx="0" cy="-42" r="2" fill="white"/>
+    <circle cx="0" cy="42" r="2" fill="white"/>
+    <circle cx="-42" cy="0" r="2" fill="white"/>
+    <circle cx="42" cy="0" r="2" fill="white"/>
+  </g>
+</svg>
